@@ -1,17 +1,17 @@
 {
-  "name": "morsemaster-android",
+  "name": "morsemaster",
   "version": "1.0.0",
-  "private": true,
-  "description": "MorseMaster packaged as an Android app using Capacitor",
+  "description": "MorseMaster Android App",
+  "type": "module",
   "scripts": {
-    "sync": "npx cap sync android",
-    "android:add": "npx cap add android"
+    "build": "echo 'Web files ready'"
   },
   "dependencies": {
-    "@capacitor/core": "^7.0.0"
+    "@capacitor/core": "^7.0.0",
+    "@capacitor/android": "^7.0.0"
   },
   "devDependencies": {
-    "@capacitor/android": "^7.0.0",
-    "@capacitor/cli": "^7.0.0"
+    "@capacitor/cli": "^7.0.0",
+    "typescript": "^5.0.0"
   }
 }
